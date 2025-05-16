@@ -6,7 +6,7 @@ This is an implementation of the Neural Network proposed on the next article:
 ## Mathematical description
 Bose-Hubbard model is used to describe physical systems such as bosonic atoms in an optical lattice, the hamiltonian is given by:
 
-$\hat H = \sum_{<ij>} \hat a_i \hat a^{\dagger}_j + \frac{U}{2}\sum_{i=1}^{M} \hat n_i(\hat n_i - 1) + \sum_i^{M}(V_i - \mu)n_i$
+![Hamiltonian](/img/hamiltonian_mathtext.png)
 
 In this code I only used the network for finding the ground state of the case of a 1-dimensional lattice with periodic boundary.
 
